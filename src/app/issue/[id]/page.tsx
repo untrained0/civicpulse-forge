@@ -208,7 +208,7 @@ export default async function IssuePage({
 
       <InvestigationPanel issue={issue} />
 
-      <AgentPipeline issue={issue} nearbyDuplicates={nearbyDuplicates} />
+      <AgentPipeline issue={issue} nearbyDuplicates={nearbyDuplicates} routed={routed} />
 
       <IssueActions issue={issue} />
     </div>
